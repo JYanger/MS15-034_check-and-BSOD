@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-   #Jyanger
+# -*- coding: utf-8 -*-   #https://github.com/JYanger/
 import requests
 import sys
 import time
