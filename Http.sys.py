@@ -74,8 +74,8 @@ def ms15_034_test(domain):
             col.print_green_text('Server\'s Bug has been repaired')
             col.print_green_text('Server is not vulnerable(MS15-034)')
         else:
-            col.print_green_text('IIS service can\'t show whether a vulnerability exists. Please input urlpath like this to testing.')
-            col.print_green_text('e.g: [*check] python2 Http.sys.py http(s)://www.xxx.com/xxx/xxx.js check')
+            col.print_yellow_text('IIS service can\'t show whether a vulnerability exists. Please input urlpath like this to testing.')
+            col.print_yellow_text('e.g: [*check] python2 Http.sys.py http(s)://www.xxx.com/xxx/xxx.js check')
             
     except Exception as e:
         print e
